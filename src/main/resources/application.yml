@@ -3,9 +3,9 @@ spring:
     name: payment-service
 
   datasource:
-    username: postgres
-    url: jdbc:postgresql://localhost:5432/transactionDB
-    password: 12345678
+    username: DB_USERNAME
+    url: DB_URL
+    password: DB_PASSWORD
 
   jpa:
     hibernate:
